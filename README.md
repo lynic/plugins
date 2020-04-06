@@ -2,6 +2,7 @@
 # Build SRIOV plugin for VM
 ```
 $ go build -o sriov plugins/main/sriov/sriov.go
+$ scp sriov cgweng@10.118.74.155:/home/cgweng/fileRoot/host-device/
 ```
 
 # plugins
